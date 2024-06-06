@@ -1,0 +1,16 @@
+name: 'Akamai Purge'
+description: 'Purge content on the Akamai network from your Github workflow'
+branding:
+  icon: 'cloud-off'
+  color: 'gray-dark'
+inputs:
+  command:
+    description: 'Purge command (delete, invalidate)'
+    required: true
+  type:
+    description: 'Purge type (tag, cpcode, url)'
+    required: true
+    default: 'tag'
+  ref:
+    description: 'Reference'
+    required: true

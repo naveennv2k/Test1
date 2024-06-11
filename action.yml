@@ -20,8 +20,13 @@ runs:
     - uses: actions/checkout@v4
     - name: ls
       run: |
-            echo $GITHUB_WORKSPACE
-            printenv
+            cd  $GITHUB_WORKSPACE
+            ls -a
+      shell: bash
+    - name: ls1
+      run: |
+            cd  $GITHUB_ACTION_PATH
+            ls -a
       shell: bash
       
   

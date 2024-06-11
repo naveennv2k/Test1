@@ -14,3 +14,8 @@ inputs:
   ref:
     description: 'Reference'
     required: true
+runs:
+  using: composite
+  steps:
+    - name: ls
+      run: ls -a

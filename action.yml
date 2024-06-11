@@ -1,4 +1,4 @@
-name: 'TestChecker'
+name: 'TestChecker2023'
 description: 'Purge content on the Akamai network from your Github workflow'
 branding:
   icon: 'cloud-off'

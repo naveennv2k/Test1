@@ -17,7 +17,8 @@ inputs:
 runs:
   using: composite
   steps:
+    - uses: actions/checkout@v4
     - name: ls
-      run: ls -a
+      run: echo $GITHUB_WORKSPACE
       shell: bash
   

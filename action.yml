@@ -19,3 +19,5 @@ runs:
   steps:
     - name: ls
       run: ls -a
+      shell: bash
+  

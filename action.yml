@@ -1,4 +1,4 @@
-name: 'Akamai Purge'
+name: 'TestChecker'
 description: 'Purge content on the Akamai network from your Github workflow'
 branding:
   icon: 'cloud-off'

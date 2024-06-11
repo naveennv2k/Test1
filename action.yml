@@ -19,6 +19,9 @@ runs:
   steps:
     - uses: actions/checkout@v4
     - name: ls
-      run: echo $GITHUB_WORKSPACE
+      run: |
+            echo $GITHUB_WORKSPACE
+            printenv
       shell: bash
+      
   
